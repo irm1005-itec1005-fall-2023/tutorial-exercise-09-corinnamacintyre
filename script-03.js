@@ -19,12 +19,13 @@ const vacationDestination = "Paris";
 // Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
 // Expected output: "Woohoo, excellent choice"
 
+if (vacationDestination === "Paris") {
+    console.log("WAHOO!! PARIS!!");
+}
 
-
-
-
-
-
+else{
+    console.log("womp womp but still cool ig"); 
+}
 
 //
 // STEP B - Using if and else if statements
