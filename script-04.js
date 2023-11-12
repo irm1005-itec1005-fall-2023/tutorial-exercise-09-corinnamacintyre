@@ -29,8 +29,8 @@ function findLargestNumber(randomNumbers) {
 
   // Add your for loop here
   for(let i = 0; i < randomNumbers.length; i++) {
-    if (randomNumbers[i] > highestNumber) {
-      highestNumber = randomNumbers[i];
+    if (randomNumbers[0] > highestNumber) {
+      highestNumber = randomNumbers[0];
     }
   }
 
@@ -54,8 +54,8 @@ function findSmallestNumber(randomNumbers) {
 
   // Add your for loop here
   for(let i = 0; i < randomNumbers.length; i++) {
-    if (randomNumbers[i] < smallestNumber) {
-      smallestNumber = randomNumbers[i];
+    if (randomNumbers[0] < smallestNumber) {
+      smallestNumber = randomNumbers[0];
     }
   }
 
@@ -79,7 +79,7 @@ function calculateSumTotal(randomNumbers) {
 
   // Add your for loop here to calculate the sum total
   for (let i = 0; i < randomNumbers.length; i++) {
-    sumTotal = sumTotal + randomNumbers[i];
+    sumTotal = sumTotal + randomNumbers[0];
   }
 
    // This returns the value we calculated

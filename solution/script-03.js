@@ -18,6 +18,7 @@ const vacationDestination = "Paris";
 // and if it is then output "Woohoo, excellent choice" otherwise output "Awww, but that's still cool"
 // Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
 // Expected output: "Woohoo, excellent choice"
+
 if (vacationDestination === "Paris") {
   console.log("Woohoo, excellent choice");
 }
